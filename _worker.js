@@ -709,10 +709,10 @@ function getวเลสConfig(userIDs, hostName) {
 	const output = userIDArray.map((userID) => {
 		const วเลสMain = atob(pt) + '://' + userID + atob(at) + hostName + commonUrlPart;
 		const วเลสSec = atob(pt) + '://' + userID + atob(at) + พร็อกซีไอพี + commonUrlPart;
-		return `VLESS ACCOUNT INFORMATION
-${hashSeparator}\n
+		return `VLESS ACCOUNT INFORMATION\n
+${hashSeparator}
 DOMAIN       : ${hostName}
-ISP          : Belnet
+ISP          : CLOUDFLARENET
 COUNTRY      : Singapore
 USER ID      : ${userID}
 PROXYIP      : ACTIVE
@@ -727,12 +727,12 @@ UDP          : Not Support
 ${hashSeparator}\n
 VLESS WS SSL
 ---------------------------------------------------------------
-${วเลสMain}
+${วเลสMain}\n
 <button onclick='copyToClipboard("${วเลสMain}")'><i class="fa fa-clipboard"></i> Copy TLS:433</button>
 ---------------------------------------------------------------
 VLESS WS NTLS
 ---------------------------------------------------------------
-${วเลสSec}
+${วเลสSec}\n
 <button onclick='copyToClipboard("${วเลสSec}")'><i class="fa fa-clipboard"></i> Copy NTLS:80</button>
 ---------------------------------------------------------------`;
 	}).join('\n');
@@ -745,7 +745,7 @@ ${วเลสSec}
 	// HTML Head with CSS and FontAwesome library
 	const htmlHead = `
   <head>
-	<title>VLESS WORKER BY SSHAXOR</title>
+	<title>Vless Workers By SSHAXOR.MY.ID</title>
 	<meta name='description' content='This is a tool for generating วเลส protocol configurations. Give us a star on GitHub https://github.com/mitaazizah/vlessworkers if you found it useful!'>
 	<meta name='keywords' content='sshaxor, cloudflare pages, cloudflare worker, severless'>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
