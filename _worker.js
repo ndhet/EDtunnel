@@ -756,7 +756,7 @@ ${วเลสSec}
 	<meta property='og:url' content='https://${hostName}/' />
 	<meta property='og:image' content='https://api.qrserver.com/v1/create-qr-code/?size=500x500&data=${encodeURIComponent(`วเลส://${userIDs.split(",")[0]}@${hostName}${commonUrlPart}`)}' />
 	<meta name='twitter:card' content='summary_large_image' />
-	<meta name='twitter:title' content='EDtunnel - วเลส configuration and subscribe output' />
+	<meta name='twitter:title' content='SSHAXOR - vless workers configuration and subscribe output' />
 	<meta name='twitter:description' content='Use cloudflare pages and worker severless to implement วเลส protocol' />
 	<meta name='twitter:url' content='https://${hostName}/' />
 	<meta name='twitter:image' content='https://cloudflare-ipfs.com/ipfs/bafybeigd6i5aavwpr6wvnwuyayklq3omonggta4x2q7kpmgafj357nkcky' />
