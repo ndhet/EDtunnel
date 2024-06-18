@@ -700,7 +700,8 @@ const ed = 'RUR0dW5uZWw=';
  */
 function getวเลสConfig(userIDs, hostName) {
 	const commonUrlPart = `:443?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2Fvless-ws#${hostName}`;
-	const hashSeparator = "################################################################";
+	const hashSeparator = "############################################";
+	const batas = "--------------------------------------------";
 
 	// Split the userIDs into an array
 	const userIDArray = userIDs.split(",");
@@ -726,15 +727,15 @@ MUX          : Off
 UDP          : Not Support
 ${hashSeparator}\n
 VLESS WS SSL
----------------------------------------------------------------
+${batas}
 ${วเลสMain}\n
 <button onclick='copyToClipboard("${วเลสMain}")'><i class="fa fa-clipboard"></i> Copy TLS:433</button>
----------------------------------------------------------------
+${batas}
 VLESS WS NTLS
----------------------------------------------------------------
+${batas}
 ${วเลสSec}\n
 <button onclick='copyToClipboard("${วเลสSec}")'><i class="fa fa-clipboard"></i> Copy NTLS:80</button>
----------------------------------------------------------------`;
+${batas}`;
 	}).join('\n');
 	const sublink = `https://${hostName}/sub/${userIDArray[0]}?format=clash`
 	const subbestip = `https://${hostName}/bestip/${userIDArray[0]}`;
