@@ -827,8 +827,8 @@ ${วเลสSec}
 Clash Converter: <a href='https://sub.bonds.id' target='_blank'>sub.bonds.id</a>
 Join Channel: <a href='https://t.me/sshaxormyid' target='_blank'>Telegram</a>
 Created by: <a href='https://t.me/sshaxor' target='_blank'>sshaxor</a>
-Website Free: <a href='https://sshaxor.my.id' target='_blank'>sshaxor.my.id
-Website VIP: <a href='https://vip.sshaxor.my.id' target='_blank'>vip.sshaxor.my.id
+Website Free: <a href='https://sshaxor.my.id' target='_blank'>sshaxor.my.id</a>
+Website VIP: <a href='https://vip.sshaxor.my.id' target='_blank'>vip.sshaxor.my.id</a>
 	
 <b></b>
 </pre>
